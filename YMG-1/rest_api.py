@@ -17,3 +17,9 @@ class Carp(Resource):
         for sayi in sayilar:
             sonuc *= sayi
         return {'sonuc': sonuc}, 200
+
+api.add_resource(IkiTopla, '/iki_topla')
+api.add_resource(Carp, '/carp')
+
+if __name__ == '__main__':
+    app.run(port=34)  # İstanbul için port 34
