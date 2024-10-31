@@ -22,4 +22,4 @@ api.add_resource(IkiTopla, '/iki_topla')
 api.add_resource(Carp, '/carp')
 
 if __name__ == '__main__':
-    app.run(port=34)  # Bayburt için port 34
+    app.run(port=69)  # Bayburt için port 69
